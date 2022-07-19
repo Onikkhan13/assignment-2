@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body{
     font-family: 'Oswald', sans-serif;
 }
@@ -36,7 +43,7 @@ body{
 }
 
 .img{
-    width: 51%;
+    width: 50%;
     margin-right: -10px;
 }
 .img img{
@@ -48,6 +55,12 @@ hero section end
 /*************** 
 blog section start 
 **************************/
+.parent{
+    display: flex;
+    
+    margin-left: 75px;
+}
+
 .menu-bg{
     background-color: black;
     width: 300px;
@@ -99,10 +112,13 @@ blog section start
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    margin-left: 55px;
 }
 .card-section{
-    border: 1px solid lightgray;
+    border: 1px solid rgb(166, 155, 155);
     width: 311px;
+    height: 310px;
     border-radius: 10px;
 }
 
@@ -122,8 +138,38 @@ blog section start
     padding-bottom: 5px;
     
 }
+.card-detail p{
+    padding-top: 10px;
+}
 .logo{
     display: flex;
     justify-content: space-between;
     margin-right:170px;
+    padding-top: 10px;
+}
+/* blog end */
+/* blog end */
+/* blog end */
+/* blog end */
+
+footer{
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+.footer-heading{
+    text-align: center;
+    padding-top: 30px;
+}
+footer hr{
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 30px;
+    color: grey;
+}
+.fot-p{
+    color: slategrey;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
