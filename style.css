@@ -1,0 +1,129 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+/* hero section start */
+.hero{
+    background-color: black;
+    display: flex;
+    color: white;
+    width: 90%;
+    height: 600px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.description{
+    width: 50%;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    
+}
+.description h1{
+    font-size: 70px;
+}
+.description p{
+    font-size: 20px;
+}
+.description a{
+    padding: 10px;
+    padding-inline: 30px;
+    background-color:rgb(196, 14, 14);
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.img{
+    width: 51%;
+    margin-right: -10px;
+}
+.img img{
+    width: 90%;
+}
+/******************** 
+hero section end 
+*****************************/
+/*************** 
+blog section start 
+**************************/
+.menu-bg{
+    background-color: black;
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+}
+.blog-menu{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+}
+
+.menu-1{
+    width: 200px;
+    padding: 15px;
+    margin-left: 35px;
+    margin-top: 25px;
+    background-color: greenyellow;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.menu-2{
+    width: 200px;
+    padding: 15px;
+    margin-left: 35px;
+    background-color: orange;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.menu-3{
+    width: 200px;
+    padding: 15px;
+    margin-left: 35px;
+    background-color: red;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.master{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.card-section{
+    border: 1px solid lightgray;
+    width: 311px;
+    border-radius: 10px;
+}
+
+.card-detail{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.card-detail a{
+    padding: 2px;
+    border: 0.5px solid black;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-right:170px;
+}
