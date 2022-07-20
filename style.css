@@ -57,7 +57,6 @@ blog section start
 **************************/
 .parent{
     display: flex;
-    
     margin-left: 75px;
 }
 
@@ -147,14 +146,13 @@ blog section start
     margin-right:170px;
     padding-top: 10px;
 }
-/* blog end */
-/* blog end */
-/* blog end */
-/* blog end */
+/****************************************************************************************
+************************************blog end********************************************/
+
 
 footer{
     background-color: black;
-    height: 300px;
+    
     color: white;
 }
 .footer-heading{
@@ -171,5 +169,162 @@ footer hr{
     color: slategrey;
     display: flex;
     justify-content: space-evenly;
+    margin-top: -20px;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 600px;
+    margin-right: 600px;
+    height: 150px;
+}
+.social-icon a{
+    color: white;
+    font-size: 23px;
+}
+
+/* match card start */
+
+.match-card{
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
     
+}
+.flag{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.flag p{
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.time h4{
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.time p{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: grey;
+}
+.last-btn{
+    background-color: brown;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    display: none;
+}
+
+/********************
+media queries mobile device 
+**************************/
+@media only screen and (max-width:688px) {
+    .hero{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        width: 570px;
+        height: 700px;
+        margin-left: 47px;
+    }
+    .description h1{
+        font-size: 30px;
+    }
+    .description{
+        padding-left: 140px;
+    }
+    .img{
+        margin-left: 150px;
+        margin-bottom: -25px;
+    }
+    .blog-menu{
+        margin-left:50px;
+    }
+    .menu-bg{
+        background-color: white;
+        margin-left: 50px;
+    }
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .master{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 90px;
+    }
+    .fot-p{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        margin-left: 300px;
+    }
+    footer{
+        width: 675px;
+    }
+    footer hr{
+        margin-left: 100px;
+    }
+    .social-icon{
+        margin-left: 320px;
+    }
+    .social-icon a{
+        margin: 20px;
+    }
+}
+/**********************************media queries mobile device end****************************
+**********************************************************************************************/
+
+
+/********************************************************************************************
+*****************************media queries tablet start*************************************/
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .hero{
+        width: 800px;
+    }
+    .description{
+        margin-top: 20px;
+    }
+    .description h1{
+        font-size: 40px;
+    }
+    .img{
+        margin-bottom:-125px;
+        width: 70%;
+    }
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .blog-menu{
+        display: flex;
+        align-items: baseline;
+        margin-right: 30px;
+    }
+    .menu-bg{
+        background-color: white;
+        width: 100%;
+    }
+    .master{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 30px;
+    }
+    footer{
+        width: 160vh;
+    }
+    .social-icon{
+        margin-left: 450px;
+    }
+    .social-icon a{
+        margin: 20px;
+    }
 }
